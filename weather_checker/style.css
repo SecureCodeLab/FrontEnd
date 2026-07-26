@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #091F43;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    min-width: 400px;
+    min-height: 400px;
+    padding: 18px;
+    background: whitesmoke;
+    border: 2px solid black;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    gap: 20px;
+    margin: 10px 0;
+}
+
+form input {
+    width: 80%;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 15px;
+    border-bottom: 1px solid #53627C;
+    box-shadow: -3px 0 4px 0 #53627C;
+}
+
+form button {
+    width: 20%;
+    font-size: large;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 13px;
+    box-shadow: 0 3px 4px 0 #53627C;
+}
+
+.card {
+    min-height: 250px;
+    padding: 12px;
+    margin: 5px 0;
+    border: 1px solid black;
+    border-radius: 18px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #11131e;
+    color: whitesmoke;
+    background-image: radial-gradient(circle 200px at 50% 0%, rgba(224, 124, 57, 0.35) 0%, #11131e 100%);
+}
+
+.card-content {
+    height: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+hr {
+    margin: 5px 0;
+}
+
+.footer {
+    text-align: end;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.temp-box {
+    width: 100%;
+    display: grid;
+    gap: 12px;
+}
+
+.icon-bubble {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.wind {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wind p {
+    font-size: 0.9rem;
+}
